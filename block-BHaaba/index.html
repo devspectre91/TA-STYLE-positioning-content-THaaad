@@ -4,5 +4,57 @@
 
 2. Inside the header keep the brand name to the left and all the navigation to the right.
 
-3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+3. Inside the main content create three columns. In each column take one image and a paragraph below the image.
 4. Using float is necessary. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2 | CSS Positioning</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="clearfix">
+      <h2>TryFoods</h2>
+      <nav>
+        <a href="">Home</a><a href="">Options</a><a href="">About Us</a>
+      </nav>
+    </header>
+    <main>
+      <section class="clearfix">
+        <div>
+          <img src="assets/item1.jpg" alt="item1" />
+          <p>
+            Pizza is a savory dish of Italian origin consisting of a usually
+            round, flattened base of leavened wheat-based dough topped with
+            tomatoes, cheese, and often various other ingredients, which is then
+            baked at a high temperature, traditionally in a wood-fired oven. A
+            small pizza is sometimes called a pizzetta
+          </p>
+        </div>
+        <div>
+          <img src="assets/item2.png" alt="item2" />
+          <p>
+            Dal baati is an Indian dish of dal and baati. It is popular in
+            Rajasthan, Maharashtra's Khandesh and Vidarbha region, Gujarat,
+            Uttar Pradesh and Madhya Pradesh. Dal is prepared using tuvaar dal,
+            chana dal, mung dal, moth dal, or urad dal.
+          </p>
+        </div>
+        <div>
+          <img src="assets/item3.jpg" alt="item3" />
+          <p>
+            Hakka noodles is a Chinese preparation where boiled noodles are stir
+            fried with sauces and vegetables or meats. A hakka noodle is made
+            from unleavened dough( rice or wheat flour) that is cooked in a
+            boiling liquid. Depending upon the type, noodles may be dried or
+            refrigerated before cooking
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer><p class="bottom">&copy;TryFoods Inc.</p></footer>
+  </body>
+</html>
