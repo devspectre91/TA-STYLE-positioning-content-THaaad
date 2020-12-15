@@ -147,16 +147,20 @@ header {
 }
 h1 {
   font-family: "Courier New", Courier, monospace;
-  font-size: 32px;
+  font-size: 36px;
   padding: 2%;
   font-weight: bold;
 }
 h2 {
   font-family: "Courier New", Courier, monospace;
-  font-size: 28px;
-  text-align: left;
+  font-size: 30px;
+  
   padding: 1.5%;
   font-weight: bold;
+}
+.sub-heading{
+    text-align: left;
+    margin-left: 17%;
 }
 p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -170,18 +174,21 @@ p {
 }
 .left {
   width: 15%;
+  margin-left: 2%;
 }
 .middle {
   width: 60%;
 }
 .right {
   width: 15%;
+  margin-left: 2%;
 }
 
 .outer-container {
   background-color: white;
   padding: 10px 10px;
   height: 90%;
+  
 }
 
 img {
