@@ -1,15 +1,61 @@
-<!-- ### Exercise
+<!DOCTYPE html>
+<html lang="en">
 
-1. Create a simple page having a header, main content, and a footer.
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning Content| Assignment 2</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
 
-2. Inside the header keep the logo to the left and all the navigation to the right.
+<body>
+    <header>
+        <div class="container clearfix heading">
+            <h2>Teeshop</h2>
+            <nav>
+                <a href="">Home</a><a href="">About Us</a><a href="">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-3. The header must be fixed at the top of the page.
+    <main id="top">
+        <article class="container clearfix intro">
+            <div class="middle">
+                <h1>Awesome Printed Tshirts</h1>
+                <p>
+                    Go casual the modish way with our exhaustive fleet of T-shirts for
+                    men, that encompasses stylish polo neck tees, classic slim fit
+                    crews, graphic printed henleys and a whole lot more! We’re
+                    showcasing the season’s favourites with a ramp full of brands like
+                    GAS, Lee and Team Spirit
+                </p>
+            </div>
+            <div class="middle intro-image">
+                <img class="tshirt-image" src="assets/tshirt.jpg" alt="tshirt_image" />
+            </div>
+        </article>
 
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+        <article class="gallery">
+            <section class="container">
 
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+                <div>
+                    <img src="assets/image1.jpg" alt="" />
+                    <img src="assets/image2.jpg" alt="" />
+                    <img src="assets/image3.jpeg" alt="" />
+                </div>
+                <div>
+                    <img src="assets/image4.gif" alt="" />
+                    <img src="assets/image5.jpg" alt="" />
+                    <img src="assets/image6.jpg" alt="" />
+                </div>
 
-6. After the gallery section footer will come.
+        </article>
+        </section>
+    </main>
 
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+    <footer>
+        <a href="#top"><img class="arrow-image" src="assets/top.png" alt="top_arrow_image" /></a>
+    </footer>
+</body>
+
+</html>
