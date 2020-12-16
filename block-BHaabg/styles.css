@@ -141,33 +141,32 @@ body {
   height: 100%;
   line-height: 1.5;
 }
+/* styling header */
 
 header {
-  background-color: rgba(223, 126, 126, 1);
+  background-color: rgb(0, 0, 0);
   height: 10%;
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 1;
 }
-.heading {
-  height: 100%;
-}
 
 h2 {
+  color: blanchedalmond;
   float: left;
-  
+  margin-top: 10px;
   font-size: 28px;
   font-weight: bold;
   text-align: left;
   width: 20%;
-  text-shadow: 0 0 3px crimson;
+  text-shadow: 0 0 3px rgb(22, 9, 12);
 }
 h1 {
   font-size: 36px;
 }
 nav {
-  margin-top: 10px;
+  margin-top: 20px;
   float: left;
   text-align: right;
   width: 70%;
@@ -180,21 +179,23 @@ nav a {
   font-size: 18px;
   font-weight: bold;
 
-
-  color: black;
+  color: blanchedalmond;
 }
 
+/* styling main */
+
 main {
-  padding-top: 5%;
   margin-top: 5%;
   width: auto;
-  height: 40%;
-  background-color: rgb(223, 215, 215);
+  height: 300px;
+  padding-top: 50px;
+
+  background-color: rgb(172, 169, 167);
 }
 .container {
   width: 80%;
+  height: 100%;
 
-  padding: 1.5%;
   margin: 0 auto;
 }
 .intro {
@@ -211,38 +212,39 @@ main {
 .intro-image {
   text-align: right;
 }
-.gallery {
-  margin-top: -3%;
-
-  background-color: lavender;
-}
-
-img {
-  width: 28%;
-  height: 180px;
-  border-radius: 30px;
-  padding: 2%;
-}
-.tshirt-image {
-  width: 80%;
-  height: 80%;
-  padding-top: 0;
-}
-.arrow-image {
-  position: fixed;
-  width: 50px;
-  height: 50px;
-
-  padding: 1%;
-  bottom: 20px;
-  right: 5px;
-}
 
 p {
   font-size: 16px;
 
   text-align: justify;
   padding-top: 2%;
+}
+
+/* styling gallery */
+
+.gallery {
+  height: 600px;
+  background-color: rgb(168, 154, 135);
+}
+
+.gallery div {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+}
+.tshirt-image {
+  width: 80%;
+  height: 80%;
+  padding-top: 0;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+  padding: 2%;
+  margin-left: 30px;
 }
 
 .clearfix::after,
@@ -252,4 +254,25 @@ p {
 }
 .clearfix::after {
   clear: both;
+}
+
+/* styling footer */
+
+footer {
+  height: 100px;
+  text-align: center;
+
+  background-color: rgb(10, 10, 10);
+}
+h4 {
+  font-size: 16px;
+  color: aliceblue;
+  padding-top: 30px;
+}
+.arrow-image {
+  position: fixed;
+  right: 5px;
+  bottom: 10px;
+  width: 60px;
+  height: 60px;
 }
